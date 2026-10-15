@@ -1,0 +1,50 @@
+# Python bytecode and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.dist-info/
+build/
+dist/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+.profile
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs and caches
+*.log
+logs/
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Streamlit local config/cache
+.streamlit/
+
+
+
+# Data folders (uncomment if you keep local datasets)
+# data/
+# datasets/
+
+# Reports/exports (optional)
+# reports/
+# exports/
